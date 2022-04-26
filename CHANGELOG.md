@@ -1,3 +1,11 @@
+## 0.11.0 (unreleased)
+
+**Breaking Changes**
+
+### Stack ids can no longer contain a whitespace
+
+A `TerraformStack` may no longer contain whitespace characters, since we rely on paths being whitespace free. If you have a stack with an ID containing a whitespace, please replace it with a hyphen.
+
 ## 0.10.2
 
 ### fix
