@@ -4,7 +4,7 @@
 
 ### Stack ids can no longer contain whitespaces
 
-A `TerraformStack` may no longer contain whitespace characters, since we rely on paths being whitespace free. If you have a stack with an ID containing a whitespace, please replace it with a hyphen.
+A `TerraformStack` may no longer contain whitespace characters, since we rely on paths being whitespace free. If you have a stack with an id containing a whitespace, please replace it with a hyphen.
 
 ## 0.10.2
 
